@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include makkahcool *.css
+recursive-include makkahcool *.csv
+recursive-include makkahcool *.html
+recursive-include makkahcool *.ico
+recursive-include makkahcool *.js
+recursive-include makkahcool *.json
+recursive-include makkahcool *.md
+recursive-include makkahcool *.png
+recursive-include makkahcool *.py
+recursive-include makkahcool *.svg
+recursive-include makkahcool *.txt
+recursive-exclude makkahcool *.pyc
