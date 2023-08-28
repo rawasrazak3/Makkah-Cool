@@ -215,3 +215,18 @@ app_license = "MIT"
 # auth_hooks = [
 #	"makkahcool.auth.validate"
 # ]
+
+fixtures=[
+    {
+    	"doctype": "DocType Layout",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Delivery Note"
+                 ]
+            ]
+        ]
+    }
+]

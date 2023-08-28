@@ -1,0 +1,1119 @@
+[
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
+  "document_type": "Delivery Note",
+  "fields": [
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer",
+    "label": "Customer",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_return",
+    "label": "Is Return",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_id",
+    "label": "Tax Id",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break1",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_date",
+    "label": "Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_10",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_lpo_and_reference_no",
+    "label": "LPO AND REFERENCE NO",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "issue_credit_note",
+    "label": "Issue Credit Note",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "return_against",
+    "label": "Return Against Delivery Note",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_dimensions_section",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency_and_price_list",
+    "label": "Currency and Price List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "currency",
+    "label": "Currency",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "conversion_rate",
+    "label": "Exchange Rate",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break23",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "selling_price_list",
+    "label": "Price List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "price_list_currency",
+    "label": "Price List Currency",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "plc_conversion_rate",
+    "label": "Price List Exchange Rate",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "ignore_pricing_rule",
+    "label": "Ignore Pricing Rule",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items_section",
+    "label": "Items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pick_list",
+    "label": "Pick List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break_warehouse",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_warehouse",
+    "label": "Set Source Warehouse",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_target_warehouse",
+    "label": "Set Target Warehouse",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_30",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "items",
+    "label": "Delivery Note Item",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_31",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_qty",
+    "label": "Total Quantity",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_net_weight",
+    "label": "Total Net Weight",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_35",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total",
+    "label": "Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_33",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total",
+    "label": "Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break3",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "grand_total",
+    "label": "Grand Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Additional Discount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_51",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packing_list",
+    "label": "Packing List",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Packed Items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "product_bundle_help",
+    "label": "Product Bundle Help",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_and_contact_tab",
+    "label": "Address & Contact",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_info",
+    "label": "Billing Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_address",
+    "label": "Billing Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "address_display",
+    "label": "Billing Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break21",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact Person",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_display",
+    "label": "Contact",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_mobile",
+    "label": "Mobile No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Contact Email",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_section",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address_name",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_address",
+    "label": "Shipping Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_95",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address_name",
+    "label": "Dispatch Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dispatch_address",
+    "label": "Dispatch Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_section",
+    "label": "Company Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address",
+    "label": "Company Address Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_101",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company_address_display",
+    "label": "Company Address",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms_tab",
+    "label": "Terms",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tc_name",
+    "label": "Terms",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "terms",
+    "label": "Terms and Conditions Details",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info_tab",
+    "label": "More Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_83",
+    "label": "Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_billed",
+    "label": "% Amount Billed",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_112",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_installed",
+    "label": "% Installed",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "installation_status",
+    "label": "Installation Status",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_89",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "per_returned",
+    "label": "% Returned",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter_info",
+    "label": "Transporter Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter",
+    "label": "Transporter",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "driver",
+    "label": "Driver",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lr_no",
+    "label": "Transport Receipt No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "vehicle_no",
+    "label": "Vehicle No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "col_break34",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transporter_name",
+    "label": "Transporter Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "driver_name",
+    "label": "Driver Name",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "lr_date",
+    "label": "Transport Receipt Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_po_details",
+    "label": "Customer PO Details",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_no",
+    "label": "Customer's Purchase Order No",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_17",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "po_date",
+    "label": "Customer's Purchase Order Date",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team_section_break",
+    "label": "Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_partner",
+    "label": "Sales Partner",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amount_eligible_for_commission",
+    "label": "Amount Eligible for Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break7",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "commission_rate",
+    "label": "Commission Rate (%)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_commission",
+    "label": "Total Commission",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break1",
+    "label": "Sales Team",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_team",
+    "label": "Sales Team",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Subscription Section",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "printing_details",
+    "label": "Print Settings",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "print_without_amount",
+    "label": "Print Without Amount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "group_same_items",
+    "label": "Group same items",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_88",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "select_print_heading",
+    "label": "Print Heading",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "language",
+    "label": "Print Language",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "more_info",
+    "label": "Additional Info",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_internal_customer",
+    "label": "Is Internal Customer",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "represents_company",
+    "label": "Represents Company",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "inter_company_reference",
+    "label": "Inter Company Reference",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "customer_group",
+    "label": "Customer Group",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "territory",
+    "label": "Territory",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "source",
+    "label": "Source",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "campaign",
+    "label": "Campaign",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "scan_barcode",
+    "label": "Scan Barcode",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_time",
+    "label": "Posting Time",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_posting_time",
+    "label": "Edit Posting Date and Time",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_18",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break5",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "excise_page",
+    "label": "Excise Page Number",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "instructions",
+    "label": "Instructions",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_section",
+    "label": "Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_category",
+    "label": "Tax Category",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_43",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "shipping_rule",
+    "label": "Shipping Rule",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_39",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "incoterm",
+    "label": "Incoterm",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "named_place",
+    "label": "Named Place",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_41",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Sales Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_47",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "connections_tab",
+    "label": "Connections",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-08-28 11:57:33.484337",
+  "name": "Delivery Note",
+  "route": "delivery_note"
+ }
+]
