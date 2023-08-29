@@ -224,7 +224,11 @@ fixtures=[
                 "name",
                 "in",
                 [ 
-                    "Delivery Note"
+                    "Delivery Note",
+                    "Purchase Order",
+                    "Quotation",
+                    "Purchase Invoice",
+                    "Sales Invoice"
                  ]
             ]
         ]
