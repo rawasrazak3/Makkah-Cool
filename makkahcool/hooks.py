@@ -34,6 +34,13 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+doctype_js = {
+    "Sales Invoice": "public/js/sales_vo.js",
+    "Purchase Invoice": "public/js/purchase_vo.js",
+    "Delivery Note": "public/js/delivery_vo.js",
+    "Quotation": "public/js/quotation_vo.js",
+    }
+
 # Home Pages
 # ----------
 
@@ -234,3 +241,4 @@ fixtures=[
         ]
     }
 ]
+
