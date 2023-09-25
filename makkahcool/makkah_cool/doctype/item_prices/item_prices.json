@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{DD}-{MM}-{YY}-{#####}",
+ "creation": "2023-09-19 16:38:58.388899",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "posting_date",
+  "section_break_gc6xk",
+  "item_prices_table"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "item_prices_table",
+   "fieldtype": "Table",
+   "label": "Item Prices Table",
+   "options": "Item Prices Table"
+  },
+  {
+   "fieldname": "section_break_gc6xk",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-23 12:13:42.587874",
+ "modified_by": "Administrator",
+ "module": "Makkah Cool",
+ "name": "Item Prices",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
