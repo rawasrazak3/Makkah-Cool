@@ -235,7 +235,8 @@ fixtures=[
                     "Purchase Order",
                     "Quotation",
                     "Purchase Invoice",
-                    "Sales Invoice"
+                    "Sales Invoice",
+                    "Payment Entry"
                  ]
             ]
         ]
