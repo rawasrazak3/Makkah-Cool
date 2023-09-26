@@ -240,6 +240,35 @@ fixtures=[
                  ]
             ]
         ]
+    },
+    {
+    	"doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Sales Invoice Item-sqty",
+                    "Sales Invoice Item-buying_price_list",
+                    "Quotation Item-buying_price_list",
+                    "Delivery Note Item-last_buy_price",
+                    "Delivery Note Item-buying_price_list",
+                    "Delivery Note Item-sqty",
+                    "Sales Invoice-home",
+                    "Sales Invoice-street",
+                    "Sales Invoice-block",
+                    "Purchase Invoice Item-stock_q",
+                    "Sales Invoice Item-last_buy_price",
+                    "Sales Invoice Item-last_buy_price",
+                    "Delivery Note-street",
+                    "Delivery Note-block",
+                    "Delivery Note-home",
+                    "Sales Invoice-custom_lpo_and_reference_no",
+                    "Delivery Note-custom_lpo_and_reference_no",
+                    "Delivery Note-lpo_and_reference_no"
+                 ]
+            ]
+        ]
     }
 ]
 

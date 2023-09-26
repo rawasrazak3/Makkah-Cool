@@ -3,6 +3,640 @@
   "client_script": null,
   "docstatus": 0,
   "doctype": "DocType Layout",
+  "document_type": "Payment Entry",
+  "fields": [
+   {
+    "fieldname": "type_of_payment",
+    "label": "Type of Payment",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "naming_series",
+    "label": "Series",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_type",
+    "label": "Payment Type",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_order_status",
+    "label": "Payment Order Status",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_5",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posting_date",
+    "label": "Posting Date",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "mode_of_payment",
+    "label": "Mode of Payment",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "company",
+    "label": "Company",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "transaction_references",
+    "label": "Transaction ID",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "reference_no",
+    "label": "Cheque/Reference No",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_23",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "reference_date",
+    "label": "Cheque/Reference Date",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "clearance_date",
+    "label": "Clearance Date",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_section",
+    "label": "Payment From / To",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_type",
+    "label": "Party Type",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party",
+    "label": "Party",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_name",
+    "label": "Party Name",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_11",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bank_account",
+    "label": "Company Bank Account",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_bank_account",
+    "label": "Party Bank Account",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_person",
+    "label": "Contact",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "contact_email",
+    "label": "Email",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_accounts_section",
+    "label": "Accounts",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "party_balance",
+    "label": "Party Balance",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_from",
+    "label": "Account Paid From",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_from_account_type",
+    "label": "Paid From Account Type",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_from_account_currency",
+    "label": "Account Currency (From)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_from_account_balance",
+    "label": "Account Balance (From)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_18",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_to",
+    "label": "Account Paid To",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_to_account_type",
+    "label": "Paid To Account Type",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_to_account_currency",
+    "label": "Account Currency (To)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_to_account_balance",
+    "label": "Account Balance (To)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_amounts_section",
+    "label": "Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_amount",
+    "label": "Paid Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "paid_amount_after_tax",
+    "label": "Paid Amount After Tax",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "source_exchange_rate",
+    "label": "Source Exchange Rate",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_paid_amount",
+    "label": "Paid Amount (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_paid_amount_after_tax",
+    "label": "Paid Amount After Tax (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_21",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "received_amount",
+    "label": "Received Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "received_amount_after_tax",
+    "label": "Received Amount After Tax",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "target_exchange_rate",
+    "label": "Target Exchange Rate",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_received_amount",
+    "label": "Received Amount (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_received_amount_after_tax",
+    "label": "Received Amount After Tax (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_14",
+    "label": "Reference",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "get_outstanding_invoices",
+    "label": "Get Outstanding Invoices",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "get_outstanding_orders",
+    "label": "Get Outstanding Orders",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "references",
+    "label": "Payment References",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_34",
+    "label": "Writeoff",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_allocated_amount",
+    "label": "Total Allocated Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_allocated_amount",
+    "label": "Total Allocated Amount (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_exchange_gain_loss",
+    "label": "Set Exchange Gain / Loss",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_36",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "unallocated_amount",
+    "label": "Unallocated Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "difference_amount",
+    "label": "Difference Amount (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "write_off_difference_amount",
+    "label": "Write Off Difference Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes_and_charges_section",
+    "label": "Taxes and Charges",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "purchase_taxes_and_charges_template",
+    "label": "Purchase Taxes and Charges Template",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sales_taxes_and_charges_template",
+    "label": "Sales Taxes and Charges Template",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_55",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_tax_withholding_amount",
+    "label": "Apply Tax Withholding Amount",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_category",
+    "label": "Tax Withholding Category",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_56",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "taxes",
+    "label": "Advance Taxes and Charges",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_60",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_total_taxes_and_charges",
+    "label": "Total Taxes and Charges (Company Currency)",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_61",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_taxes_and_charges",
+    "label": "Total Taxes and Charges",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "deductions_or_loss_section",
+    "label": "Deductions or Loss",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "deductions",
+    "label": "Payment Deductions or Loss",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "accounting_dimensions_section",
+    "label": "Accounting Dimensions",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "project",
+    "label": "Project",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "dimension_col_break",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "cost_center",
+    "label": "Cost Center",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_12",
+    "label": "More Information",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "status",
+    "label": "Status",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_remarks",
+    "label": "Custom Remarks",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "remarks",
+    "label": "Remarks",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_16",
+    "label": null,
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "letter_head",
+    "label": "Letter Head",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "print_heading",
+    "label": "Print Heading",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bank",
+    "label": "Bank",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bank_account_no",
+    "label": "Bank Account No",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "payment_order",
+    "label": "Payment Order",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "subscription_section",
+    "label": "Subscription Section",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "auto_repeat",
+    "label": "Auto Repeat",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "amended_from",
+    "label": "Amended From",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "title",
+    "label": "Title",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   }
+  ],
+  "modified": "2023-09-05 17:15:17.799992",
+  "name": "Payment Entry",
+  "route": "payment_entry"
+ },
+ {
+  "client_script": null,
+  "docstatus": 0,
+  "doctype": "DocType Layout",
   "document_type": "Quotation",
   "fields": [
    {
@@ -153,125 +787,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "net_total",
-    "label": "Net Total",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "totals",
-    "label": "Totals",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_grand_total",
-    "label": "Grand Total (Company Currency)",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounding_adjustment",
-    "label": "Rounding Adjustment (Company Currency)",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounded_total",
-    "label": "Rounded Total (Company Currency)",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_in_words",
-    "label": "In Words (Company Currency)",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break3",
-    "label": null,
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "grand_total",
-    "label": "Grand Total",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounding_adjustment",
-    "label": "Rounding Adjustment",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounded_total",
-    "label": "Rounded Total",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "in_words",
-    "label": "In Words",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_44",
-    "label": "Additional Discount",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "apply_discount_on",
-    "label": "Apply Additional Discount On",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_discount_amount",
-    "label": "Additional Discount Amount (Company Currency)",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "coupon_code",
-    "label": "Coupon Code",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_46",
-    "label": null,
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_percentage",
-    "label": "Additional Discount Percentage",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "discount_amount",
     "label": "Additional Discount Amount",
     "parent": "Quotation",
@@ -279,50 +794,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "referral_sales_partner",
-    "label": "Referral Sales Partner",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "sec_tax_breakup",
-    "label": "Tax Breakup",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "other_charges_calculation",
-    "label": "Taxes and Charges Calculation",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "bundle_items_section",
-    "label": "Bundle Items",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "packed_items",
-    "label": "Bundle Items",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rule_details",
-    "label": "Pricing Rules",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rules",
-    "label": "Pricing Rule Detail",
+    "fieldname": "grand_total",
+    "label": "Grand Total",
     "parent": "Quotation",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -755,6 +1228,167 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break3",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": "Additional Discount",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "coupon_code",
+    "label": "Coupon Code",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_46",
+    "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "referral_sales_partner",
+    "label": "Referral Sales Partner",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "bundle_items_section",
+    "label": "Bundle Items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Bundle Items",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "additional_info_section",
     "label": "Additional Info",
     "parent": "Quotation",
@@ -860,7 +1494,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-08-29 11:21:16.113634",
+  "modified": "2023-09-26 17:43:02.470847",
   "name": "Quotation",
   "route": "quotation"
  },
@@ -880,6 +1514,13 @@
    {
     "fieldname": "customer",
     "label": "Customer",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "block",
+    "label": "BLOCK",
     "parent": "Delivery Note",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -920,6 +1561,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "street",
+    "label": "STREET",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break_10",
     "label": null,
     "parent": "Delivery Note",
@@ -943,6 +1591,13 @@
    {
     "fieldname": "custom_lpo_and_reference_no",
     "label": "LPO AND REFERENCE NO",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "home",
+    "label": "HOME",
     "parent": "Delivery Note",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -1074,50 +1729,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "net_total",
-    "label": "Net Total",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "totals",
-    "label": "Totals",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_grand_total",
-    "label": "Grand Total (Company Currency)",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounding_adjustment",
-    "label": "Rounding Adjustment (Company Currency)",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounded_total",
-    "label": "Rounded Total (Company Currency)",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_in_words",
-    "label": "In Words (Company Currency)",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break3",
-    "label": null,
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
     "parent": "Delivery Note",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -1125,76 +1738,6 @@
    {
     "fieldname": "grand_total",
     "label": "Grand Total",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounding_adjustment",
-    "label": "Rounding Adjustment",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounded_total",
-    "label": "Rounded Total",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "in_words",
-    "label": "In Words",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "disable_rounded_total",
-    "label": "Disable Rounded Total",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_49",
-    "label": "Additional Discount",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "apply_discount_on",
-    "label": "Apply Additional Discount On",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_51",
-    "label": null,
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_discount_amount",
-    "label": "Additional Discount Amount (Company Currency)",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_percentage",
-    "label": "Additional Discount Percentage",
-    "parent": "Delivery Note",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "discount_amount",
-    "label": "Additional Discount Amount",
     "parent": "Delivery Note",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -1683,6 +2226,118 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break3",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Additional Discount",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_51",
+    "label": null,
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "more_info",
     "label": "Additional Info",
     "parent": "Delivery Note",
@@ -1949,6 +2604,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "lpo_and_reference_no",
+    "label": "LPO AND REFERENCE NO",
+    "parent": "Delivery Note",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "base_total_taxes_and_charges",
     "label": "Total Taxes and Charges (Company Currency)",
     "parent": "Delivery Note",
@@ -1977,7 +2639,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-08-29 11:23:22.062496",
+  "modified": "2023-09-26 13:24:03.245138",
   "name": "Delivery Note",
   "route": "delivery_note"
  },
@@ -2023,6 +2685,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "block",
+    "label": "BLOCK",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "tax_id",
     "label": "Tax Id",
     "parent": "Sales Invoice",
@@ -2058,6 +2727,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "street",
+    "label": "STREET",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "is_return",
     "label": "Is Return (Credit Note)",
     "parent": "Sales Invoice",
@@ -2074,6 +2750,20 @@
    {
     "fieldname": "custom_lpo_and_reference_no",
     "label": "LPO AND REFERENCE NO",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "home",
+    "label": "HOME",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_pos_opening_shift",
+    "label": "POS Shift",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2226,160 +2916,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "net_total",
-    "label": "Net Total",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "totals",
-    "label": "Totals",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_grand_total",
-    "label": "Grand Total (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounding_adjustment",
-    "label": "Rounding Adjustment (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounded_total",
-    "label": "Rounded Total (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_in_words",
-    "label": "In Words (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break5",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "grand_total",
-    "label": "Grand Total",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounding_adjustment",
-    "label": "Rounding Adjustment",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "use_company_roundoff_cost_center",
-    "label": "Use Company default Cost Center for Round off",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounded_total",
-    "label": "Rounded Total",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "in_words",
-    "label": "In Words",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "total_advance",
-    "label": "Total Advance",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "outstanding_amount",
-    "label": "Outstanding Amount",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "disable_rounded_total",
-    "label": "Disable Rounded Total",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_49",
-    "label": "Additional Discount",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "apply_discount_on",
-    "label": "Apply Additional Discount On",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_discount_amount",
-    "label": "Additional Discount Amount (Company Currency)",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "is_cash_or_non_trade_discount",
-    "label": "Is Cash or Non Trade Discount",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_account",
-    "label": "Discount Account",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_51",
-    "label": null,
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_percentage",
-    "label": "Additional Discount Percentage",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "discount_amount",
     "label": "Additional Discount Amount",
     "parent": "Sales Invoice",
@@ -2387,64 +2923,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "sec_tax_breakup",
-    "label": "Tax Breakup",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "other_charges_calculation",
-    "label": "Taxes and Charges Calculation",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rule_details",
-    "label": "Pricing Rules",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rules",
-    "label": "Pricing Rule Detail",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "packing_list",
-    "label": "Packing List",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "packed_items",
-    "label": "Packed Items",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "product_bundle_help",
-    "label": "Product Bundle Help",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "time_sheet_list",
-    "label": "Time Sheet List",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "timesheets",
-    "label": "Time Sheets",
+    "fieldname": "grand_total",
+    "label": "Grand Total",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -2961,6 +3441,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "posa_additional_notes_section",
+    "label": "Additional Notes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "is_opening",
     "label": "Is Opening Entry",
     "parent": "Sales Invoice",
@@ -3087,6 +3574,223 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "totals",
+    "label": "Totals",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break5",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "use_company_roundoff_cost_center",
+    "label": "Use Company default Cost Center for Round off",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_advance",
+    "label": "Total Advance",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "outstanding_amount",
+    "label": "Outstanding Amount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Additional Discount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "is_cash_or_non_trade_discount",
+    "label": "Is Cash or Non Trade Discount",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_account",
+    "label": "Discount Account",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_51",
+    "label": null,
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_offers",
+    "label": "POS Offers Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packing_list",
+    "label": "Packing List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "packed_items",
+    "label": "Packed Items",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "product_bundle_help",
+    "label": "Product Bundle Help",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "time_sheet_list",
+    "label": "Time Sheet List",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "timesheets",
+    "label": "Time Sheets",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "accounting_dimensions_section",
     "label": "Accounting Dimensions",
     "parent": "Sales Invoice",
@@ -3173,6 +3877,13 @@
    {
     "fieldname": "subscription_section",
     "label": "Subscription",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_charges",
+    "label": "Delivery Charges",
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3435,9 +4146,51 @@
     "parent": "Sales Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_coupons",
+    "label": "POS Coupons Detail",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_charges_rate",
+    "label": "Delivery Charges Rate",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_is_printed",
+    "label": "Printed",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_notes",
+    "label": "Additional Notes",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_delivery_date",
+    "label": "Delivery Date",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "posa_column_break_111",
+    "label": "",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-08-29 10:45:50.967614",
+  "modified": "2023-09-26 13:28:54.686417",
   "name": "Sales Invoice",
   "route": "sales_invoice"
  },
@@ -3665,13 +4418,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "rejected_warehouse",
-    "label": "Rejected Warehouse",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "supplier_warehouse",
     "label": "Supplier Warehouse",
     "parent": "Purchase Invoice",
@@ -3728,13 +4474,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "base_net_total",
-    "label": "Net Total (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "column_break_28",
     "label": null,
     "parent": "Purchase Invoice",
@@ -3749,64 +4488,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "net_total",
-    "label": "Net Total",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "tax_withholding_net_total",
-    "label": "Tax Withholding Net Total",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_tax_withholding_net_total",
-    "label": "Base Tax Withholding Net Total",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_49",
-    "label": "Totals",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_grand_total",
-    "label": "Grand Total (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounding_adjustment",
-    "label": "Rounding Adjustment (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounded_total",
-    "label": "Rounded Total (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_in_words",
-    "label": "In Words (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break8",
-    "label": null,
+    "fieldname": "discount_amount",
+    "label": "Additional Discount Amount",
     "parent": "Purchase Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -3819,148 +4502,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "rounding_adjustment",
-    "label": "Rounding Adjustment",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "use_company_roundoff_cost_center",
-    "label": "Use Company Default Round Off Cost Center",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounded_total",
-    "label": "Rounded Total",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "in_words",
-    "label": "In Words",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "total_advance",
-    "label": "Total Advance",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "outstanding_amount",
-    "label": "Outstanding Amount",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "disable_rounded_total",
-    "label": "Disable Rounded Total",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_44",
-    "label": "Additional Discount",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "apply_discount_on",
-    "label": "Apply Additional Discount On",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_discount_amount",
-    "label": "Additional Discount Amount (Company Currency)",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_46",
-    "label": null,
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_percentage",
-    "label": "Additional Discount Percentage",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "discount_amount",
-    "label": "Additional Discount Amount",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "tax_withheld_vouchers_section",
-    "label": "Tax Withheld Vouchers",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "tax_withheld_vouchers",
-    "label": "Tax Withheld Vouchers",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "sec_tax_breakup",
-    "label": "Tax Breakup",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "other_charges_calculation",
-    "label": "Taxes and Charges Calculation",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rule_details",
-    "label": "Pricing Rules",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rules",
-    "label": "Pricing Rule Detail",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "raw_materials_supplied",
-    "label": "Raw Materials Supplied",
-    "parent": "Purchase Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "supplied_items",
-    "label": "Supplied Items",
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
     "parent": "Purchase Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -4638,6 +5181,216 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "rejected_warehouse",
+    "label": "Rejected Warehouse",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_net_total",
+    "label": "Net Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withholding_net_total",
+    "label": "Tax Withholding Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_tax_withholding_net_total",
+    "label": "Base Tax Withholding Net Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_49",
+    "label": "Totals",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break8",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "use_company_roundoff_cost_center",
+    "label": "Use Company Default Round Off Cost Center",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "total_advance",
+    "label": "Total Advance",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "outstanding_amount",
+    "label": "Outstanding Amount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_44",
+    "label": "Additional Discount",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_46",
+    "label": null,
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withheld_vouchers_section",
+    "label": "Tax Withheld Vouchers",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "tax_withheld_vouchers",
+    "label": "Tax Withheld Vouchers",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rule_details",
+    "label": "Pricing Rules",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Pricing Rule Detail",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "raw_materials_supplied",
+    "label": "Raw Materials Supplied",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplied_items",
+    "label": "Supplied Items",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "additional_info_section",
     "label": "Additional Info",
     "parent": "Purchase Invoice",
@@ -4743,7 +5496,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-08-29 11:15:27.463627",
+  "modified": "2023-09-26 13:38:49.544918",
   "name": "Purchase Invoice",
   "route": "purchase_invoice"
  },
@@ -5013,181 +5766,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "net_total",
-    "label": "Net Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "tax_withholding_net_total",
-    "label": "Tax Withholding Net Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_tax_withholding_net_total",
-    "label": "Base Tax Withholding Net Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "section_break_48",
-    "label": "Pricing Rules",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "pricing_rules",
-    "label": "Purchase Order Pricing Rule",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "raw_material_details",
-    "label": "Raw Materials Supplied",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "set_reserve_warehouse",
-    "label": "Set Reserve Warehouse",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "supplied_items",
-    "label": "Supplied Items",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "totals_section",
-    "label": "Totals",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_grand_total",
-    "label": "Grand Total (Company Currency)",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounding_adjustment",
-    "label": "Rounding Adjustment (Company Currency)",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_in_words",
-    "label": "In Words (Company Currency)",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_rounded_total",
-    "label": "Rounded Total (Company Currency)",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break4",
-    "label": null,
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "grand_total",
-    "label": "Grand Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounding_adjustment",
-    "label": "Rounding Adjustment",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "rounded_total",
-    "label": "Rounded Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "disable_rounded_total",
-    "label": "Disable Rounded Total",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "in_words",
-    "label": "In Words",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "advance_paid",
-    "label": "Advance Paid",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "discount_section",
-    "label": "Additional Discount",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "apply_discount_on",
-    "label": "Apply Additional Discount On",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "base_discount_amount",
-    "label": "Additional Discount Amount (Company Currency)",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "column_break_45",
-    "label": null,
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "additional_discount_percentage",
-    "label": "Additional Discount Percentage",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "discount_amount",
     "label": "Additional Discount Amount",
     "parent": "Purchase Order",
@@ -5195,15 +5773,8 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "sec_tax_breakup",
-    "label": "Tax Breakup",
-    "parent": "Purchase Order",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
-    "fieldname": "other_charges_calculation",
-    "label": "Taxes and Charges Calculation",
+    "fieldname": "grand_total",
+    "label": "Grand Total",
     "parent": "Purchase Order",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -5587,6 +6158,188 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "tax_withholding_net_total",
+    "label": "Tax Withholding Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_tax_withholding_net_total",
+    "label": "Base Tax Withholding Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "section_break_48",
+    "label": "Pricing Rules",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "pricing_rules",
+    "label": "Purchase Order Pricing Rule",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "raw_material_details",
+    "label": "Raw Materials Supplied",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "set_reserve_warehouse",
+    "label": "Set Reserve Warehouse",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "supplied_items",
+    "label": "Supplied Items",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "totals_section",
+    "label": "Totals",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "net_total",
+    "label": "Net Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_grand_total",
+    "label": "Grand Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounding_adjustment",
+    "label": "Rounding Adjustment (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_in_words",
+    "label": "In Words (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_rounded_total",
+    "label": "Rounded Total (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break4",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounding_adjustment",
+    "label": "Rounding Adjustment",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "rounded_total",
+    "label": "Rounded Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "disable_rounded_total",
+    "label": "Disable Rounded Total",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "in_words",
+    "label": "In Words",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "advance_paid",
+    "label": "Advance Paid",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "discount_section",
+    "label": "Additional Discount",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "apply_discount_on",
+    "label": "Apply Additional Discount On",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "base_discount_amount",
+    "label": "Additional Discount Amount (Company Currency)",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "column_break_45",
+    "label": null,
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "additional_discount_percentage",
+    "label": "Additional Discount Percentage",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "sec_tax_breakup",
+    "label": "Tax Breakup",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "other_charges_calculation",
+    "label": "Taxes and Charges Calculation",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "taxes_section",
     "label": "Taxes and Charges",
     "parent": "Purchase Order",
@@ -5804,7 +6557,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-08-29 11:31:12.921441",
+  "modified": "2023-09-26 15:42:36.520017",
   "name": "Purchase Order",
   "route": "purchase_order"
  }
