@@ -76,6 +76,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "supplier_invoice_number",
+    "label": "Supplier Invoice Number",
+    "parent": "Payment Entry",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break_23",
     "label": null,
     "parent": "Payment Entry",
@@ -629,7 +636,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-09-05 17:15:17.799992",
+  "modified": "2023-10-26 08:18:14.998596",
   "name": "Payment Entry",
   "route": "payment_entry"
  },
