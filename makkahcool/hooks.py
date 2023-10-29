@@ -269,6 +269,17 @@ fixtures=[
                  ]
             ]
         ]
+    },
+    {
+    	"doctype": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [ 
+                    "Sales Invoice-set_posting_time-default"
+                 ]
+            ]
+        ]
     }
 ]
-

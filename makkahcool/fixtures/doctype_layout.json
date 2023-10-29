@@ -2790,6 +2790,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "posting_time",
+    "label": "Posting Time",
+    "parent": "Sales Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "is_consolidated",
     "label": "Is Consolidated",
     "parent": "Sales Invoice",
@@ -4078,13 +4085,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "posting_time",
-    "label": "Posting Time",
-    "parent": "Sales Invoice",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "set_posting_time",
     "label": "Edit Posting Date and Time",
     "parent": "Sales Invoice",
@@ -4197,7 +4197,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-09-26 13:28:54.686417",
+  "modified": "2023-10-29 09:10:04.218316",
   "name": "Sales Invoice",
   "route": "sales_invoice"
  },
