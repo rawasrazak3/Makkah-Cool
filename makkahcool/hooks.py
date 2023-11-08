@@ -41,6 +41,21 @@ doctype_js = {
     "Quotation": "public/js/quotation_vo.js",
     }
 
+doc_events = {
+	"Delivery Note": {
+		"autoname": "makkahcool.makkah_cool.custom_script.delivery_note.autoname"
+	},
+    "Sales Invoice": {
+		"autoname": "makkahcool.makkah_cool.custom_script.sales_invoice.autoname"
+	},
+    "Purchase Invoice": {
+		"autoname": "makkahcool.makkah_cool.custom_script.purchase_invoice.autoname"
+	},
+    "Purchase Order": {
+		"autoname": "makkahcool.makkah_cool.custom_script.purchase_order.autoname"
+	},
+}
+
 # Home Pages
 # ----------
 

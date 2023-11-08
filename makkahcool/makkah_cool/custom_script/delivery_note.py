@@ -1,3 +1,4 @@
+from frappe.model.naming import make_autoname
 import frappe
 
 @frappe.whitelist()
@@ -53,3 +54,8 @@ def stock_qty_1(item_code):
         results = entries[0].get('qty_after_transaction')
 
     return results
+
+@frappe.whitelist()
+def autoname(doc, method):
+    if doc.set_warehouse == "Shuwaikh Showroom - MCR&ACSP":
+        doc.name= make_autoname(f"S-{doc.naming_series}")

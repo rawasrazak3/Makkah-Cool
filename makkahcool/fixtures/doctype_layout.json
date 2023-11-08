@@ -5496,14 +5496,21 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "column_break_38",
-    "label": null,
+    "fieldname": "use_transaction_date_exchange_rate",
+    "label": "Use Transaction Date Exchange Rate",
+    "parent": "Purchase Invoice",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "repost_required",
+    "label": "Repost Required",
     "parent": "Purchase Invoice",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-09-26 13:38:49.544918",
+  "modified": "2023-10-29 11:15:30.251084",
   "name": "Purchase Invoice",
   "route": "purchase_invoice"
  },
