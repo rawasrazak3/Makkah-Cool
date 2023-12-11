@@ -51,8 +51,8 @@ doc_events = {
     "Purchase Invoice": {
 		"autoname": "makkahcool.makkah_cool.custom_script.purchase_invoice.autoname"
 	},
-    "Purchase Order": {
-		"autoname": "makkahcool.makkah_cool.custom_script.purchase_order.autoname"
+    "Payment Entry": {
+		"autoname": "makkahcool.makkah_cool.custom_script.payment_entry.autoname"
 	},
 }
 

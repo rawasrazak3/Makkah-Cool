@@ -661,13 +661,6 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "quotation_to",
-    "label": "Quotation To",
-    "parent": "Quotation",
-    "parentfield": "fields",
-    "parenttype": "DocType Layout"
-   },
-   {
     "fieldname": "party_name",
     "label": "Party",
     "parent": "Quotation",
@@ -675,8 +668,15 @@
     "parenttype": "DocType Layout"
    },
    {
-    "fieldname": "customer_name",
-    "label": "Customer Name",
+    "fieldname": "custom_attn",
+    "label": "ATTN",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_payment_term",
+    "label": "PAYMENT TERM",
     "parent": "Quotation",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -696,6 +696,20 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "custom_mobile_no",
+    "label": "MOBILE NO",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_ref_no",
+    "label": "REF NO",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break1",
     "label": null,
     "parent": "Quotation",
@@ -705,6 +719,13 @@
    {
     "fieldname": "valid_till",
     "label": "Valid Till",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_email",
+    "label": "EMAIL",
     "parent": "Quotation",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -726,6 +747,13 @@
    {
     "fieldname": "items_section",
     "label": null,
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_set_warehouse",
+    "label": "Set Source Warehouse",
     "parent": "Quotation",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -1403,6 +1431,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "quotation_to",
+    "label": "Quotation To",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "status",
     "label": "Status",
     "parent": "Quotation",
@@ -1480,6 +1515,13 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "customer_name",
+    "label": "Customer Name",
+    "parent": "Quotation",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "supplier_quotation",
     "label": "Supplier Quotation",
     "parent": "Quotation",
@@ -1501,7 +1543,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-09-26 17:43:02.470847",
+  "modified": "2023-11-09 19:48:06.003266",
   "name": "Quotation",
   "route": "quotation"
  },
@@ -5542,6 +5584,20 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "custom_attn",
+    "label": "ATTN",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_payment_term",
+    "label": "Payment Term",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "supplier_name",
     "label": "Supplier Name",
     "parent": "Purchase Order",
@@ -5584,6 +5640,20 @@
     "parenttype": "DocType Layout"
    },
    {
+    "fieldname": "custom_mobile_no",
+    "label": "Mobile No",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_quotation_ref",
+    "label": "QUOTATION REF NO",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
     "fieldname": "column_break1",
     "label": null,
     "parent": "Purchase Order",
@@ -5593,6 +5663,13 @@
    {
     "fieldname": "schedule_date",
     "label": "Required By",
+    "parent": "Purchase Order",
+    "parentfield": "fields",
+    "parenttype": "DocType Layout"
+   },
+   {
+    "fieldname": "custom_email",
+    "label": "EMAIL",
     "parent": "Purchase Order",
     "parentfield": "fields",
     "parenttype": "DocType Layout"
@@ -6571,7 +6648,7 @@
     "parenttype": "DocType Layout"
    }
   ],
-  "modified": "2023-09-26 15:42:36.520017",
+  "modified": "2023-11-09 19:11:13.077482",
   "name": "Purchase Order",
   "route": "purchase_order"
  }
