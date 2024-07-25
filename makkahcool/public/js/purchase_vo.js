@@ -11,7 +11,7 @@ frappe.ui.form.on('Purchase Invoice Item', {
     },
     item_code(frm, cdt, cdn) {
       let co = locals[cdt][cdn];
-      co.stock_q = 0;
+      co.custom_available_qty = 0;
       if (frm.doc.items && frm.doc.supplier) {
             frappe.call({
                 method: "makkahcool.makkah_cool.custom_script.sales_invoice.stock_qty_1",
@@ -21,7 +21,7 @@ frappe.ui.form.on('Purchase Invoice Item', {
                 callback: function (r) {
                     let sqty = r.message;
                     if (sqty) {
-                        co.stock_q = sqty;
+                        co.custom_available_qty = sqty;
                     }
                 }
             });

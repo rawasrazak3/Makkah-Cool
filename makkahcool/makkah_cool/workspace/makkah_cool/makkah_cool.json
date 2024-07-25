@@ -1,0 +1,276 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"yaq4NRRxU1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">MAKKAH COOL REFRIGERATION &amp; AIR CONDITIONING SPARE PARTS</span>\",\"col\":12}},{\"id\":\"Z4TGkAxyha\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"f7bP-b7bqB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><span class=\\\"h3\\\" style=\\\"\\\">SALES</span></span>\",\"col\":12}},{\"id\":\"hjKhECv4Yc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW DELIVERY NOTE\",\"col\":3}},{\"id\":\"LScxfAOt31\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW CREDIT INVOICE\",\"col\":3}},{\"id\":\"WBl3mRKyhG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW CASH INVOICE\",\"col\":3}},{\"id\":\"PMtqp06wph\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW QUOTATION\",\"col\":3}},{\"id\":\"G4uXmab_FX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"BPMxqztBSj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>PURCHASE</b></span>\",\"col\":12}},{\"id\":\"0uoAny6YVJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW PURCHASE ORDER\",\"col\":3}},{\"id\":\"iV_zVgbQQJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW PURCHASE INVOICE\",\"col\":3}},{\"id\":\"qU-3HhzgPs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"NEW PURCHASE ENQUIRY\",\"col\":3}},{\"id\":\"3ttPxJXe_W\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kwjS1iZ32j\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"STOCK TRANSFER\",\"col\":3}},{\"id\":\"rHG4bxhrK3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5kh38hDmu6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b><span class=\\\"h3\\\"><b>REPORTS</b></span></b></span>\",\"col\":12}},{\"id\":\"xF_S3ffIst\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Report\",\"col\":3}},{\"id\":\"TZJz6FlY-4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Report\",\"col\":3}},{\"id\":\"jYckpQvAx2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Account Statement\",\"col\":3}},{\"id\":\"tHHRgm8Am5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SUPPLIER ITEM-WISE\",\"col\":3}},{\"id\":\"E1hGOld6Lr\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iS5TWKs9h-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock Ledger\",\"col\":3}},{\"id\":\"c874V4WddT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock Balance\",\"col\":3}},{\"id\":\"ZKJuE5BKcq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock\",\"col\":3}},{\"id\":\"kUFQ-GTj2d\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Material Transfer\",\"col\":3}},{\"id\":\"Udz1HvlPNj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"H3PCDa3gyN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accounts Receivable Report\",\"col\":3}},{\"id\":\"MhR1OFPLvq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accounts Payable Report\",\"col\":3}},{\"id\":\"iwJZXrVIHI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Account Statement\",\"col\":3}},{\"id\":\"SqeplVJIw8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"General Ledger Makkah Cool\",\"col\":3}},{\"id\":\"EervXGszLe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"0wCcs4JbdM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gross Profit\",\"col\":3}},{\"id\":\"gooQuaTd6i\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"bIr-pZHXoi\",\"type\":\"card\",\"data\":{\"card_name\":\"SALES\",\"col\":4}},{\"id\":\"KI9czF05vk\",\"type\":\"card\",\"data\":{\"card_name\":\"PURCHASE\",\"col\":4}},{\"id\":\"PGX_wAEWm3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"EDIT ITEM PRICES\",\"col\":3}}]",
+ "creation": "2023-08-14 12:07:40.428932",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "menu",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Makkah Cool",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PURCHASE",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Order",
+   "link_count": 0,
+   "link_to": "Purchase Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Create New Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Price",
+   "link_count": 0,
+   "link_to": "Item Price",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SALES",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice List",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Note List",
+   "link_count": 0,
+   "link_to": "Delivery Note",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotation",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Create New Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-25 14:58:49.856960",
+ "modified_by": "Administrator",
+ "module": "Makkah Cool",
+ "name": "Makkah Cool",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Accounts Receivable Report",
+   "link_to": "Accounts Receivable Makkah Cool",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW QUOTATION",
+   "link_to": "Quotation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Material Transfer",
+   "link_to": "Stock Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW PURCHASE INVOICE",
+   "link_to": "Purchase Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock Ledger",
+   "link_to": "Stock Ledger",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Account Statement",
+   "link_to": "General Ledger",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Gross Profit",
+   "link_to": "Gross Profit",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW CREDIT INVOICE",
+   "link_to": "Sales Invoice",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Sales Report",
+   "link_to": "Sales Regiister Makkah Cool",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW PURCHASE ORDER",
+   "link_to": "Purchase Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "EDIT ITEM PRICES",
+   "link_to": "Item Prices",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "STOCK TRANSFER",
+   "link_to": "Stock Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SUPPLIER ITEM-WISE",
+   "link_to": "Item-wise Purchase Register",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "General Ledger Makkah Cool",
+   "link_to": "General Ledger Makkah Cool",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Accounts Payable Report",
+   "link_to": "Accounts Payable Makkah Cool",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW PURCHASE ENQUIRY",
+   "link_to": "Supplier Quotation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "NEW DELIVERY NOTE",
+   "link_to": "Delivery Note",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "format": "{} Open",
+   "label": "NEW CASH INVOICE",
+   "link_to": "posapp",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Purchase Report",
+   "link_to": "Purchase Register Makkah Cool",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock Balance",
+   "link_to": "Stock Balance",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock",
+   "link_to": "Stock",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "Makkah Cool"
+}

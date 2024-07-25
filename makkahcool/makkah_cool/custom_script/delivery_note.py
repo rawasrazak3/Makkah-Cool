@@ -1,21 +1,21 @@
 from frappe.model.naming import make_autoname
 import frappe
 
-@frappe.whitelist()
-def last_price(customer):
-    results = {}
-    query = []
-    query = frappe.get_all('Delivery Note',filters={"customer": f'{customer}', "docstatus": '1'},fields=['name'], order_by='name asc',as_list=True)
-    for q in query:
-        q = q[0]
-        exst = frappe.db.exists('Delivery Note', {"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-        if exst:
-            qq = frappe.get_doc('Delivery Note',{"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-            if qq:
-                for it in qq.items:
-                    results[f'{it.item_code}'] = it.rate
+# @frappe.whitelist()
+# def last_price(customer):
+#     results = {}
+#     query = []
+#     query = frappe.get_all('Delivery Note',filters={"customer": f'{customer}', "docstatus": '1'},fields=['name'], order_by='name asc',as_list=True)
+#     for q in query:
+#         q = q[0]
+#         exst = frappe.db.exists('Delivery Note', {"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
+#         if exst:
+#             qq = frappe.get_doc('Delivery Note',{"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
+#             if qq:
+#                 for it in qq.items:
+#                     results[f'{it.item_code}'] = it.rate
     
-    return results
+#     return results
 
 @frappe.whitelist()
 def stock_qty(item_code):
@@ -39,21 +39,21 @@ def last_buying(item_code):
         results = item_price.price_list_rate
     return results
 
-@frappe.whitelist()
-def stock_qty_1(item_code):
-    results = None  # Initialize results to None
-    entries = frappe.get_all(
-        'Stock Ledger Entry',
-        filters={'item_code': item_code},
-        fields=['qty_after_transaction'],
-        order_by='posting_date DESC, posting_time DESC',
-        limit=1  # Limit to one record, which is the latest
-    )
+# @frappe.whitelist()
+# def stock_qty_1(item_code):
+#     results = None  # Initialize results to None
+#     entries = frappe.get_all(
+#         'Stock Ledger Entry',
+#         filters={'item_code': item_code},
+#         fields=['qty_after_transaction'],
+#         order_by='posting_date DESC, posting_time DESC',
+#         limit=1  # Limit to one record, which is the latest
+#     )
 
-    if entries:
-        results = entries[0].get('qty_after_transaction')
+#     if entries:
+#         results = entries[0].get('qty_after_transaction')
 
-    return results
+#     return results
 
 @frappe.whitelist()
 def autoname(doc, method):

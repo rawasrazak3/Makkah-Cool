@@ -1,21 +1,22 @@
 from frappe.model.naming import make_autoname
 import frappe
 
-@frappe.whitelist()
-def last_price(customer):
-    results = {}
-    query = []
-    query = frappe.get_all('Sales Invoice',filters={"customer": f'{customer}', "docstatus": '1'},fields=['name'], order_by='name asc',as_list=True)
-    for q in query:
-        q = q[0]
-        exst = frappe.db.exists('Sales Invoice', {"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-        if exst:
-            qq = frappe.get_doc('Sales Invoice',{"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
-            if qq:
-                for it in qq.items:
-                    results[f'{it.item_code}'] = it.rate
+# @frappe.whitelist()
+# def last_price(customer):
+#     results = {}
+#     query = []
+#     query = frappe.get_all('Sales Invoice',filters={"customer": f'{customer}', "docstatus": '1'},fields=['name'], order_by='name asc',as_list=True)
+#     for q in query:
+#         q = q[0]
+#         exst = frappe.db.exists('Sales Invoice', {"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
+#         if exst:
+#             qq = frappe.get_doc('Sales Invoice',{"customer": f'{customer}', "docstatus": '1', "name": f'{q}'})
+#             if qq:
+#                 for it in qq.items:
+#                     results[f'{it.item_code}'] = it.rate
     
-    return results
+#     return results
+
 
 @frappe.whitelist()
 def stock_qty(item_code):

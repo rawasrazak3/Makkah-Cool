@@ -280,7 +280,31 @@ fixtures=[
                     "Delivery Note-home",
                     "Sales Invoice-custom_lpo_and_reference_no",
                     "Delivery Note-custom_lpo_and_reference_no",
-                    "Delivery Note-lpo_and_reference_no"
+                    "Delivery Note-lpo_and_reference_no",
+                    "Payment Entry-supplier_invoice_number",
+                    "Quotation-custom_set_warehouse",
+                    "Purchase Order-custom_email",
+                    "Purchase Order-custom_mobile_no",
+                    "Purchase Order-custom_payment_term",
+                    "Purchase Order-custom_attn",
+                    "Purchase Order-custom_quotation_ref",
+                    "Quotation-custom_mobile_no",
+                    "Quotation-custom_ref_no",
+                    "Quotation-custom_email",
+                    "Quotation-custom_payment_term",
+                    "Quotation-custom_attn",
+                    "Supplier Quotation-custom_attn",
+                    "Supplier Quotation-custom_payment_term",
+                    "Supplier Quotation-custom_mobile_no",
+                    "Supplier Quotation-custom_date_break",
+                    "Supplier Quotation-custom_email",
+                    "Supplier Quotation-custom_quotation_ref",
+                    "Quotation-custom_sales_teamw",
+                    "Quotation-custom_sales_teamm",
+                    "Delivery Note-custom_section_break_pidkp",
+                    "Quotation Item-custom_available_qty",
+                    "Delivery Note-block",
+                    
                  ]
             ]
         ]
