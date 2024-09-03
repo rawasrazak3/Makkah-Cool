@@ -57,5 +57,7 @@ def stock_qty_1(item_code):
     return results
 
 def autoname(doc, method):
-    if doc.set_warehouse == "Shuwaikh Showroom - MCR&ACSP":
-        doc.name= make_autoname(f"S-{doc.naming_series}")
+    if doc.is_pos == 1:
+        doc.name= make_autoname(f"CA-{doc.naming_series}")
+    else:
+        doc.name= make_autoname(f"CR-{doc.naming_series}")
